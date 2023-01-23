@@ -22,7 +22,7 @@ function Home() {
         <span>
           Task Pending
         </span>
-        <button onClick={() => setShowTaskDone(!showTaskDone)}>Show Task Done</button>
+        <button onClick={() => setShowTaskDone(!showTaskDone)}>Toggle Tasks Status</button>
       </header>
       <TaskList done={showTaskDone} />
       
